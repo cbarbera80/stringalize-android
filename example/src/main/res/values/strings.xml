@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Stringalize example</string>
+    <string name="greeting">Helo from the app</string>
+    <string name="farewell">See you soon</string>
+    <plurals name="files">
+        <item quantity="one">%d file (bundled)</item>
+        <item quantity="other">%d files (bundled)</item>
+    </plurals>
+
+    <string name="from_code" translatable="false">getString in code</string>
+    <string name="from_layout" translatable="false">android:text in an XML layout</string>
+    <string name="from_compose" translatable="false">stringResource in Compose</string>
+    <string name="from_plurals" translatable="false">getQuantityString</string>
+    <string name="check" translatable="false">Check for updates</string>
+</resources>
